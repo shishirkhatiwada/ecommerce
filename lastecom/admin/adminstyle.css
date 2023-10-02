@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-1 {
+    min-height: 100vh;
+    width: 20%;
+    background: black;
+    background-size: 400% 400%;
+}
+
+
+.column {
+    float: left;
+    padding: 20px;
+}
+
+.col-1 h1 {
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+.col-1 ul {
+    list-style: none;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+.col-1 li {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.col-1 a {
+    text-decoration: none;
+    color: #DFCBCB;
+}
+
+/* CSS styles for col-2 */
+.col-2 {
+    min-height: 100vh;
+    width: 80%;
+    background-color: #ddd;
+    box-shadow: 2px 0 0 2px #ddd;
+    display: flex;
+    flex-direction: column; /* Set column layout for col-2 */
+    align-items: center; /* Center content horizontally */
+}
+
+.col-2 h1 {
+    margin: 30px 0;
+    padding: 10px;
+    color: #030303;
+    text-align: center; /* Center text horizontally */
+}
+
+.col-2 p {
+    margin: 10px 0;
+    padding: 10px;
+    color: #030303;
+    text-align: center; /* Center text horizontally */
+}
+
+.col-2 span {
+    margin-right: 10px;
+    display: inline-block; /* Ensure the icon and text are on the same line */
+}
+
+.col-2 span i {
+    font-size: 24px;
+}
+
+.col-2 p {
+    font-size: 20px;
+}
+
+
+/* CSS styles for the footer */
+/* CSS styles for the footer */
+footer {
+    background-color: #333;
+    color: black; /* Change text color to black */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Increase the padding for the footer */
+    font-size: 18px; /* Increase the font size for the text */
+}
+
